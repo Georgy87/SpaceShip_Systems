@@ -8,10 +8,12 @@ public class CameraManager : MonoBehaviour
     {
         NoCamera = -1,
         CockpitCamera = 0,
-        FollowCamera
+        FollowCamera = 1,
+        EnemyFollowCamera = 2
     }
 
-    [Header("Virtual cameras")] [SerializeField]
+    [Header("Virtual cameras")]
+    [SerializeField]
     List<GameObject> _virtualCameras;
 
     VirtualCameras CameraKeyPressed
@@ -37,14 +39,14 @@ public class CameraManager : MonoBehaviour
     {
         SetActiveCamera(CameraKeyPressed);
     }
-    
+
     void SetActiveCamera(VirtualCameras activeCamera)
     {
         if (activeCamera == VirtualCameras.NoCamera)
         {
             return;
         }
-        
+
         // Debug.Log($"${activeCamera.ToString()}");
         foreach (GameObject cam in _virtualCameras)
         {

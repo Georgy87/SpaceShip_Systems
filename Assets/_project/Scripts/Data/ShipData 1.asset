@@ -10,12 +10,12 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: bb7b9de43d8b10a4eb1ac4d2eb1aa567, type: 3}
-  m_Name: ShipData
+  m_Name: ShipData 1
   m_EditorClassIdentifier: 
-  _thrustForce: 5784
-  _pitchForce: 3250
-  _rollForce: 4233
-  _yawForce: 4284
+  _thrustForce: 3250
+  _pitchForce: 5578
+  _rollForce: 6612
+  _yawForce: 8474
   _shieldStrength: 5000
   _shieldRegenAmount: 100
   _maxHealth: 5000
