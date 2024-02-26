@@ -29,14 +29,17 @@ public class ShipController : MonoBehaviour
 
     [SerializeField]
     private AnimateCockpitControls _cockpitAnimationControls;
+
+    DamageHandler _damageHandler;
     void Awake()
     {
         _rigidBody = GetComponent<Rigidbody>();
+        _damageHandler = GetComponent<DamageHandler>();
     }
     void Start()
     {
         // _cockpitControl.Init(ControlInput);
-        
+
         if (MovementInput == null) return;
         foreach (ShipEnginee engine in _engines)
         {
@@ -50,6 +53,24 @@ public class ShipController : MonoBehaviour
         {
             _cockpitAnimationControls.Init(MovementInput);
         }
+    }
+
+    public virtual void OnEnable()
+    {
+        if (_damageHandler == null) return;
+        _damageHandler.Init(_shipData.MaxHealth);
+        _damageHandler.HealthChanged.AddListener(OnHealthChanged);
+        _damageHandler.ObjectDestroyed.AddListener(DestroyShip);
+    }
+
+    void DestroyShip()
+    {
+        gameObject.SetActive(false);
+    }
+
+    void OnHealthChanged()
+    {
+        Debug.Log(message: $"{gameObject.name} health is {_damageHandler.Health} / {_damageHandler.MaxHealth}");
     }
 
     void Update()

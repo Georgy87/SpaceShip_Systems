@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.Events;
 
-public class DamageHandler : MonoBehaviour
+public class DamageHandler : MonoBehaviour, IDamageable
 {
     [SerializeField] GameObject _explosionPrefab;
     UnityEvent _healthChangedEvent;
@@ -24,6 +24,7 @@ public class DamageHandler : MonoBehaviour
     {
         Health -= damage;
         HealthChanged.Invoke();
+      
         if (Health > 0) return;
         if (_explosionPrefab)
         {

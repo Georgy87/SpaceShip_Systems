@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 7924447163628775684}
   - component: {fileID: 600241913235409031}
   - component: {fileID: 2790480137906955004}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: jet petal025
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -94,7 +94,7 @@ GameObject:
   - component: {fileID: 5063299508417575812}
   - component: {fileID: 6293369983821586080}
   - component: {fileID: 8091724874884022000}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: jet petal024
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -177,7 +177,7 @@ GameObject:
   - component: {fileID: 2788028910920188433}
   - component: {fileID: 6623815307344471670}
   - component: {fileID: 6529353368105273155}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Gun Barrel
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -261,7 +261,7 @@ GameObject:
   - component: {fileID: 7160495999918786130}
   - component: {fileID: 4387037518431631968}
   - component: {fileID: 4332807882698688848}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: jet petal002
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -344,7 +344,7 @@ GameObject:
   - component: {fileID: 1841599619738808757}
   - component: {fileID: 4671479932873086283}
   - component: {fileID: 8849165306533314819}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: jet petal011
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -427,7 +427,7 @@ GameObject:
   - component: {fileID: 1266979242860556915}
   - component: {fileID: 8889708495863228614}
   - component: {fileID: 4911566605602794898}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Particle System (3)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5170,7 +5170,7 @@ GameObject:
   - component: {fileID: 1296166809108134463}
   - component: {fileID: 8100990793084710101}
   - component: {fileID: 6938548347526883713}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Particle System (4)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9913,7 +9913,7 @@ GameObject:
   - component: {fileID: 3812383416282985694}
   - component: {fileID: 1981666177190622416}
   - component: {fileID: 8984847702936771053}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: jet petal016
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9994,7 +9994,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 5272610980568097870}
-  m_Layer: 6
+  m_Layer: 9
   m_Name: Muzzle
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -10027,7 +10027,7 @@ GameObject:
   - component: {fileID: 6497318298027882589}
   - component: {fileID: 1397975974923692377}
   - component: {fileID: 1123142224613304408}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: jet petal031
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -10109,7 +10109,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7454774742280450545}
   - component: {fileID: 191704721373153497}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Engine1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -10130,6 +10130,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 6366885960502887006}
+  - {fileID: 2872377875108802238}
   m_Father: {fileID: 761908911297424224}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &191704721373153497
@@ -10145,6 +10146,37 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _thruster: {fileID: 7598133563127233374}
+--- !u!1 &720113837042336092
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2185292939510828645}
+  m_Layer: 9
+  m_Name: ProbeBottom
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2185292939510828645
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 720113837042336092}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: -6.29, z: 8.7}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 8340897806750188975}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &783968170959599117
 GameObject:
   m_ObjectHideFlags: 0
@@ -10157,13 +10189,13 @@ GameObject:
   - component: {fileID: 96376016382900}
   - component: {fileID: 3168844239853218298}
   - component: {fileID: 198645660749907402}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Cube (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &2794744163832500022
 Transform:
   m_ObjectHideFlags: 0
@@ -10250,6 +10282,37 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 1, y: 1, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
+--- !u!1 &1125533077163809417
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6367262775999732677}
+  m_Layer: 9
+  m_Name: ProbeTop
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &6367262775999732677
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1125533077163809417}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 2.35, z: 8.7}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 8340897806750188975}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1693931480004731297
 GameObject:
   m_ObjectHideFlags: 0
@@ -10261,7 +10324,7 @@ GameObject:
   - component: {fileID: 2542426927509018870}
   - component: {fileID: 9113110663360902682}
   - component: {fileID: 1711972379056195688}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: jet petal028
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -10344,7 +10407,7 @@ GameObject:
   - component: {fileID: 2273640823234943127}
   - component: {fileID: 1250452279339164360}
   - component: {fileID: 9055107771387158984}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Particle System (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -15132,7 +15195,7 @@ GameObject:
   - component: {fileID: 7323633782276279794}
   - component: {fileID: 2212444004170814564}
   - component: {fileID: 8785090229050172566}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: jet petal003
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -15215,7 +15278,7 @@ GameObject:
   - component: {fileID: 3083226774732269339}
   - component: {fileID: 5968916669492518986}
   - component: {fileID: 8627976331021598737}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: jet petal018
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -15298,7 +15361,7 @@ GameObject:
   - component: {fileID: 1673090152602997140}
   - component: {fileID: 9026113293211510040}
   - component: {fileID: 1672975911594995321}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: jet petal013
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -15381,7 +15444,7 @@ GameObject:
   - component: {fileID: 6324735520042539464}
   - component: {fileID: 3555903553002902897}
   - component: {fileID: 8989170440651887781}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: jet petal004
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -15453,6 +15516,37 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!1 &3178422411777796588
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 201200983613214604}
+  m_Layer: 9
+  m_Name: ProbeLeftInner
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &201200983613214604
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3178422411777796588}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -3.06, y: -5.2, z: 8.7}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 8340897806750188975}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &3248593644088394698
 GameObject:
   m_ObjectHideFlags: 0
@@ -15462,7 +15556,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 8738433320169551995}
-  m_Layer: 6
+  m_Layer: 9
   m_Name: Muzzle
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -15494,7 +15588,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4931338752812633045}
   - component: {fileID: 8209914597263622582}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Point light (4)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -15591,7 +15685,8 @@ GameObject:
   - component: {fileID: 3035503215030470155}
   - component: {fileID: 4064818830705249700}
   - component: {fileID: 8959289014872986753}
-  m_Layer: 0
+  - component: {fileID: 5489583946156591786}
+  m_Layer: 9
   m_Name: Fighter
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -15668,6 +15763,19 @@ MonoBehaviour:
   - {fileID: 2352332916222908770}
   - {fileID: 3774361905042697625}
   _cockpitAnimationControls: {fileID: 0}
+--- !u!114 &5489583946156591786
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3635498214960800579}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f8c506eedfe95d0459aab9815df3091d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _explosionPrefab: {fileID: 4837803550522495352, guid: 11a5c90ca3b980e41a0307f13c02c349, type: 3}
 --- !u!1 &3786129500868037723
 GameObject:
   m_ObjectHideFlags: 0
@@ -15680,7 +15788,7 @@ GameObject:
   - component: {fileID: 227602893918515338}
   - component: {fileID: 8966152773181550661}
   - component: {fileID: 66664032627978082}
-  m_Layer: 6
+  m_Layer: 9
   m_Name: Gun Barrel (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -15778,7 +15886,7 @@ GameObject:
   - component: {fileID: 3661499051392181689}
   - component: {fileID: 7216373230905062161}
   - component: {fileID: 167912036687602181}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: jet petal014
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -15861,7 +15969,7 @@ GameObject:
   - component: {fileID: 6718686867068756556}
   - component: {fileID: 2086331693910581947}
   - component: {fileID: 1887290336916141255}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: jet petal032
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -15944,7 +16052,7 @@ GameObject:
   - component: {fileID: 8301070213640934020}
   - component: {fileID: 1634274415062381302}
   - component: {fileID: 2165271739913819803}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: jet petal
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -16027,7 +16135,7 @@ GameObject:
   - component: {fileID: 5379105496483892633}
   - component: {fileID: 3094978509801272628}
   - component: {fileID: 8190972613601910616}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: jet petal026
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -16099,6 +16207,74 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!1 &3978834567789757335
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 123517153255831665}
+  - component: {fileID: 4720126364498893239}
+  - component: {fileID: 2558557201109823978}
+  m_Layer: 9
+  m_Name: Collider2
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &123517153255831665
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3978834567789757335}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 3.6}
+  m_LocalScale: {x: 2.5982378, y: 2.8477786, z: 8.140122}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 9102554832705404296}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!65 &4720126364498893239
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3978834567789757335}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!114 &2558557201109823978
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3978834567789757335}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b0aed495dd64a1446b9c000a44e6bcd1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _damageDelegates:
+  - {fileID: 3635498214960800579}
 --- !u!1 &4104670980965671778
 GameObject:
   m_ObjectHideFlags: 0
@@ -16110,7 +16286,7 @@ GameObject:
   - component: {fileID: 1443414771944265462}
   - component: {fileID: 7238834867914667306}
   - component: {fileID: 5606705279284233815}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: jet petal006
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -16193,7 +16369,7 @@ GameObject:
   - component: {fileID: 1083900841705671770}
   - component: {fileID: 6163354452562654920}
   - component: {fileID: 1788701709458251302}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: jet petal007
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -16265,6 +16441,53 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!1 &4423559561241664295
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 9102554832705404296}
+  - component: {fileID: 1495878402732536899}
+  m_Layer: 9
+  m_Name: Collider
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &9102554832705404296
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4423559561241664295}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 5.85, y: -0.32, z: -3.5599995}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 123517153255831665}
+  m_Father: {fileID: 5818631277231244257}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1495878402732536899
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4423559561241664295}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b0aed495dd64a1446b9c000a44e6bcd1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _damageDelegates:
+  - {fileID: 3635498214960800579}
 --- !u!1 &4608351325385887317
 GameObject:
   m_ObjectHideFlags: 0
@@ -16276,7 +16499,7 @@ GameObject:
   - component: {fileID: 5762495235624581722}
   - component: {fileID: 6744881379762388257}
   - component: {fileID: 603865190810631437}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Particle System (3)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -21053,6 +21276,37 @@ ParticleSystemRenderer:
   m_MeshWeighting2: 1
   m_MeshWeighting3: 1
   m_MaskInteraction: 0
+--- !u!1 &4690110694501571123
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6189447851055110307}
+  m_Layer: 9
+  m_Name: ProbeRight
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &6189447851055110307
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4690110694501571123}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 8.57, y: -2.07, z: 8.7}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 8340897806750188975}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &4714878128550427761
 GameObject:
   m_ObjectHideFlags: 0
@@ -21064,7 +21318,7 @@ GameObject:
   - component: {fileID: 7367881692344926763}
   - component: {fileID: 9109836569659374992}
   - component: {fileID: 109233011439618905}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Sensors_Mount
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -21148,7 +21402,7 @@ GameObject:
   - component: {fileID: 7362974623454514714}
   - component: {fileID: 6164280198452036446}
   - component: {fileID: 6222563371005096101}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: jet petal009
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -21231,7 +21485,7 @@ GameObject:
   - component: {fileID: 66619613354169786}
   - component: {fileID: 6895542801853805167}
   - component: {fileID: 2011185305604566}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: jet petal008
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -21314,7 +21568,7 @@ GameObject:
   - component: {fileID: 2392574696507316171}
   - component: {fileID: 2461507574490058613}
   - component: {fileID: 7912196624263729365}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: jet petal020
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -21396,7 +21650,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7027407426528722213}
   - component: {fileID: 6588448973980389390}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Point light (7)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -21493,7 +21747,7 @@ GameObject:
   - component: {fileID: 4117937860989886164}
   - component: {fileID: 2004058228244879749}
   - component: {fileID: 2619799564873975347}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Sensors_Lens
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -21576,7 +21830,7 @@ GameObject:
   - component: {fileID: 7920393566501920029}
   - component: {fileID: 467574380121669292}
   - component: {fileID: 6590547963393482802}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Particle System (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -26319,7 +26573,7 @@ GameObject:
   - component: {fileID: 761908911297424224}
   - component: {fileID: 2412660849007835966}
   - component: {fileID: 8706810049279026314}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Engines
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -26336,7 +26590,7 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: -0, y: 0.12964483, z: 2.78}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 0.8, y: 0.8, z: 0.8}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 7454774742280450545}
@@ -26438,7 +26692,7 @@ GameObject:
   - component: {fileID: 4595060883862052767}
   - component: {fileID: 6120444260515580686}
   - component: {fileID: 557452039580962786}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: jet petal029
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -26520,7 +26774,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4724457684946413097}
   - component: {fileID: 2276772253288004399}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Point light (5)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -26617,7 +26871,7 @@ GameObject:
   - component: {fileID: 4360832266741014138}
   - component: {fileID: 3819375974206356059}
   - component: {fileID: 8388952912625027011}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: jet petal010
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -26700,7 +26954,7 @@ GameObject:
   - component: {fileID: 8364145225842938347}
   - component: {fileID: 276896222214666809}
   - component: {fileID: 5436612402248060960}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: jet petal021
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -26783,7 +27037,7 @@ GameObject:
   - component: {fileID: 8897406296647294711}
   - component: {fileID: 4999403775653900984}
   - component: {fileID: 5524250668256649266}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Gun_Body
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -26859,6 +27113,37 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!1 &6264194755879391760
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 9195414449220358216}
+  m_Layer: 9
+  m_Name: ProbeLeft
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &9195414449220358216
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6264194755879391760}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -8.57, y: -2.07, z: 8.7}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 8340897806750188975}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &6325663619466708817
 GameObject:
   m_ObjectHideFlags: 0
@@ -26870,7 +27155,7 @@ GameObject:
   - component: {fileID: 8511612470444930541}
   - component: {fileID: 1972424425091493861}
   - component: {fileID: 9178810107332556277}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: jet petal017
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -26953,7 +27238,7 @@ GameObject:
   - component: {fileID: 2883177538619012098}
   - component: {fileID: 3642784686349644960}
   - component: {fileID: 575385959179694050}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: jet petal022
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -27036,13 +27321,13 @@ GameObject:
   - component: {fileID: 929883954461285904}
   - component: {fileID: 1791103088742269668}
   - component: {fileID: 3505249484234902863}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Gun Mount
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &929883954461285904
 Transform:
   m_ObjectHideFlags: 0
@@ -27109,6 +27394,74 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!1 &6543269988123947434
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3271591592456889588}
+  - component: {fileID: 1585631052954087169}
+  - component: {fileID: 6148563171891325878}
+  m_Layer: 9
+  m_Name: Collider1
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3271591592456889588
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6543269988123947434}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 3.6}
+  m_LocalScale: {x: 2.5982378, y: 2.8477786, z: 8.140122}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 2872377875108802238}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!65 &1585631052954087169
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6543269988123947434}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!114 &6148563171891325878
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6543269988123947434}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b0aed495dd64a1446b9c000a44e6bcd1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _damageDelegates:
+  - {fileID: 3635498214960800579}
 --- !u!1 &6738240188525136410
 GameObject:
   m_ObjectHideFlags: 0
@@ -27120,7 +27473,7 @@ GameObject:
   - component: {fileID: 1650309070907940168}
   - component: {fileID: 8077873488429172384}
   - component: {fileID: 328311404582355071}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: jet petal015
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -27203,7 +27556,7 @@ GameObject:
   - component: {fileID: 3352194041272451505}
   - component: {fileID: 1138404001211117072}
   - component: {fileID: 5946817390958682432}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: jet petal005
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -27286,7 +27639,7 @@ GameObject:
   - component: {fileID: 4603160485021871955}
   - component: {fileID: 1678903710691165661}
   - component: {fileID: 2681436263062814353}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Particle System (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -32029,7 +32382,7 @@ GameObject:
   - component: {fileID: 7452925659497035606}
   - component: {fileID: 7493743516685482015}
   - component: {fileID: 5365496796295090359}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: jet petal023
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -32110,7 +32463,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2335539730224630387}
-  m_Layer: 6
+  m_Layer: 9
   m_Name: Muzzle
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -32142,7 +32495,7 @@ GameObject:
   m_Component:
   - component: {fileID: 6366885960502887006}
   - component: {fileID: 2870187686330108625}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Point light (6)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -32239,7 +32592,7 @@ GameObject:
   - component: {fileID: 8864436325386690406}
   - component: {fileID: 5486739396605899173}
   - component: {fileID: 1757150376573001648}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: jet petal019
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -32320,7 +32673,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 6875390411402043351}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Muzzle
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -32353,7 +32706,7 @@ GameObject:
   - component: {fileID: 4690139602562959632}
   - component: {fileID: 7731589250914171733}
   - component: {fileID: 3845287092479845070}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Particle System (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -37141,7 +37494,7 @@ GameObject:
   - component: {fileID: 4357996394564164989}
   - component: {fileID: 821659528350794312}
   - component: {fileID: 3462256985107271403}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Particle System
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -41929,7 +42282,7 @@ GameObject:
   - component: {fileID: 702901264148754822}
   - component: {fileID: 3731175178014724253}
   - component: {fileID: 5238816192577672515}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: jet petal027
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -42001,6 +42354,37 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!1 &8134695855816619429
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8529975978781271386}
+  m_Layer: 9
+  m_Name: ProbeRightInner
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &8529975978781271386
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8134695855816619429}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 3.06, y: -5.2, z: 8.7}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 8340897806750188975}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &8188613881707492445
 GameObject:
   m_ObjectHideFlags: 0
@@ -42013,7 +42397,7 @@ GameObject:
   - component: {fileID: 6502567654445246162}
   - component: {fileID: 1426971876927369587}
   - component: {fileID: 2352332916222908770}
-  m_Layer: 6
+  m_Layer: 9
   m_Name: Gun Barrel (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -42117,7 +42501,7 @@ GameObject:
   - component: {fileID: 1412550611926353541}
   - component: {fileID: 3887540599551192517}
   - component: {fileID: 5109595801963355577}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Wasp_Interdictor
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -42134,7 +42518,7 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: -0, y: -1.5, z: 4.8}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 0.8, y: 0.8, z: 0.8}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 761908911297424224}
@@ -42308,7 +42692,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 8340357078551861149}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: a6bcd6ecdbcee104786ad2c78812f8bd, type: 3}
   m_Name: 
@@ -42362,7 +42746,7 @@ GameObject:
   - component: {fileID: 406175558229352843}
   - component: {fileID: 8170741188990308008}
   - component: {fileID: 3774361905042697625}
-  m_Layer: 6
+  m_Layer: 9
   m_Name: Gun Barrel (3)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -42449,6 +42833,53 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _projectilePrefab: {fileID: -7971046155587434674, guid: 1ffc381b0728ad747b909014183f144b, type: 3}
   _muzzle: {fileID: 2335539730224630387}
+--- !u!1 &8690556478543965831
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2872377875108802238}
+  - component: {fileID: 8837946241854371558}
+  m_Layer: 9
+  m_Name: Collider
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2872377875108802238
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8690556478543965831}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -5.83, y: -0.32, z: -3.5599995}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 3271591592456889588}
+  m_Father: {fileID: 7454774742280450545}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &8837946241854371558
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8690556478543965831}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b0aed495dd64a1446b9c000a44e6bcd1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _damageDelegates:
+  - {fileID: 3635498214960800579}
 --- !u!1 &8780666265361393785
 GameObject:
   m_ObjectHideFlags: 0
@@ -42459,7 +42890,7 @@ GameObject:
   m_Component:
   - component: {fileID: 5818631277231244257}
   - component: {fileID: 6244378294004472501}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Engine2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -42480,6 +42911,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 7027407426528722213}
+  - {fileID: 9102554832705404296}
   m_Father: {fileID: 761908911297424224}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &6244378294004472501
@@ -42506,7 +42938,7 @@ GameObject:
   - component: {fileID: 6920984297096998960}
   - component: {fileID: 8106193543185080056}
   - component: {fileID: 4370329545502483525}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: jet petal030
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -42589,7 +43021,7 @@ GameObject:
   - component: {fileID: 5014777400008358352}
   - component: {fileID: 1697591027649048723}
   - component: {fileID: 2738098612330850936}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: jet petal012
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -42670,12 +43102,28 @@ PrefabInstance:
     m_TransformParent: {fileID: 3035503215030470155}
     m_Modifications:
     - target: {fileID: 6031026460510096101, guid: 6c6e9150fe6882a4a8e267a3b6709d2d, type: 3}
-      propertyPath: _enableYaw
+      propertyPath: m_Enabled
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6031026460510096101, guid: 6c6e9150fe6882a4a8e267a3b6709d2d, type: 3}
+      propertyPath: _enableYaw
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6031026460510096101, guid: 6c6e9150fe6882a4a8e267a3b6709d2d, type: 3}
+      propertyPath: _collisionAvoidance
+      value: 
+      objectReference: {fileID: 7034274251061660013}
+    - target: {fileID: 6153876553047508093, guid: 6c6e9150fe6882a4a8e267a3b6709d2d, type: 3}
+      propertyPath: m_Layer
+      value: 9
       objectReference: {fileID: 0}
     - target: {fileID: 8026183626130750818, guid: 6c6e9150fe6882a4a8e267a3b6709d2d, type: 3}
       propertyPath: m_Name
       value: AIShipMovementControls
+      objectReference: {fileID: 0}
+    - target: {fileID: 8026183626130750818, guid: 6c6e9150fe6882a4a8e267a3b6709d2d, type: 3}
+      propertyPath: m_Layer
+      value: 9
       objectReference: {fileID: 0}
     - target: {fileID: 8862350731767799226, guid: 6c6e9150fe6882a4a8e267a3b6709d2d, type: 3}
       propertyPath: m_LocalPosition.x
@@ -42687,7 +43135,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8862350731767799226, guid: 6c6e9150fe6882a4a8e267a3b6709d2d, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -72.1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8862350731767799226, guid: 6c6e9150fe6882a4a8e267a3b6709d2d, type: 3}
       propertyPath: m_LocalRotation.w
@@ -42719,8 +43167,29 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
-    m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedGameObjects:
+    - targetCorrespondingSourceObject: {fileID: 5993084563905770609, guid: 6c6e9150fe6882a4a8e267a3b6709d2d, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 6367262775999732677}
+    - targetCorrespondingSourceObject: {fileID: 5993084563905770609, guid: 6c6e9150fe6882a4a8e267a3b6709d2d, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 2185292939510828645}
+    - targetCorrespondingSourceObject: {fileID: 5993084563905770609, guid: 6c6e9150fe6882a4a8e267a3b6709d2d, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 9195414449220358216}
+    - targetCorrespondingSourceObject: {fileID: 5993084563905770609, guid: 6c6e9150fe6882a4a8e267a3b6709d2d, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 6189447851055110307}
+    - targetCorrespondingSourceObject: {fileID: 5993084563905770609, guid: 6c6e9150fe6882a4a8e267a3b6709d2d, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 8529975978781271386}
+    - targetCorrespondingSourceObject: {fileID: 5993084563905770609, guid: 6c6e9150fe6882a4a8e267a3b6709d2d, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 201200983613214604}
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 6153876553047508093, guid: 6c6e9150fe6882a4a8e267a3b6709d2d, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 7034274251061660013}
   m_SourcePrefab: {fileID: 100100000, guid: 6c6e9150fe6882a4a8e267a3b6709d2d, type: 3}
 --- !u!4 &6491378101902486628 stripped
 Transform:
@@ -42733,11 +43202,48 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 2372100630078878174}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 0}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 1c9e74a0bc696194388e6821b638b199, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!4 &8340897806750188975 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 5993084563905770609, guid: 6c6e9150fe6882a4a8e267a3b6709d2d, type: 3}
+  m_PrefabInstance: {fileID: 2372100630078878174}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &8470588009271817635 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 6153876553047508093, guid: 6c6e9150fe6882a4a8e267a3b6709d2d, type: 3}
+  m_PrefabInstance: {fileID: 2372100630078878174}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &7034274251061660013
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8470588009271817635}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ff3aec24282d75f45af35ca2e6e4eb68, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _layerMask:
+    serializedVersion: 2
+    m_Bits: 0
+  _topProbe: {fileID: 6367262775999732677}
+  _bottomProbe: {fileID: 2185292939510828645}
+  _leftProbes:
+  - {fileID: 9195414449220358216}
+  - {fileID: 201200983613214604}
+  _rightProbes:
+  - {fileID: 6189447851055110307}
+  - {fileID: 8529975978781271386}
+  _detectionRange: 100
+  _displayRays: 1
+  _verticalCollision: 
+  _horizontalCollision: 
 --- !u!1001 &4487754228041014621
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -42800,7 +43306,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8736456458548640102, guid: e2520b1c68d429349b6307776f700503, type: 3}
       propertyPath: m_Layer
-      value: 11
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 8736456458548640102, guid: e2520b1c68d429349b6307776f700503, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -42823,6 +43333,10 @@ PrefabInstance:
     - target: {fileID: 3283584990068023182, guid: 4aca0c2161e73234db865fe10f8145c2, type: 3}
       propertyPath: m_Name
       value: AIShipWeaponControls
+      objectReference: {fileID: 0}
+    - target: {fileID: 3283584990068023182, guid: 4aca0c2161e73234db865fe10f8145c2, type: 3}
+      propertyPath: m_Layer
+      value: 9
       objectReference: {fileID: 0}
     - target: {fileID: 7759418981925974199, guid: 4aca0c2161e73234db865fe10f8145c2, type: 3}
       propertyPath: m_LocalPosition.x

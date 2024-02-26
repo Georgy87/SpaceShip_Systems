@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class AsteroidField : MonoBehaviour
 {
-    [SerializeField][Range(100, 1000)] private int _asteroidCount = 500;
+    [SerializeField][Range(100, 30000)] private int _asteroidCount = 500;
     [SerializeField][Range(100f, 1000f)] private float _radius = 300f;
     [SerializeField][Range(1f, 10f)] private float _maxScale = 5f;
     [SerializeField] List<GameObject> _asteroidPrefabs;

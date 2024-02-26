@@ -55,13 +55,13 @@ public class CollisionAvoidance : MonoBehaviour
 
     int GetVerticalAvoidance()
     {
-        if (Physics.SphereCast(_topProbe.position, 2f, _topProbe.forward, out var hit, _detectionRange, _layerMask))
+        if (Physics.SphereCast(_topProbe.position, 2f, _topProbe.forward, out var hit, _detectionRange))
         {
             _verticalCollision = $"{_topProbe.name} detected {hit.collider.name}";
             return AvoidDown;
         }
 
-        if (Physics.SphereCast(_bottomProbe.position, 2f, _bottomProbe.forward, out hit, _detectionRange, _layerMask))
+        if (Physics.SphereCast(_bottomProbe.position, 2f, _bottomProbe.forward, out hit, _detectionRange))
         {
             _verticalCollision = $"{_bottomProbe.name} detected {hit.collider.name}";
             return AvoidUp;
@@ -73,7 +73,7 @@ public class CollisionAvoidance : MonoBehaviour
     {
         foreach (var leftProbe in _leftProbes)
         {
-            if (Physics.Raycast(leftProbe.position, leftProbe.forward, out var hit, _detectionRange, _layerMask))
+            if (Physics.Raycast(leftProbe.position, leftProbe.forward, out var hit, _detectionRange))
             {
                 _horizontalCollision = $"{leftProbe.name} detected {hit.collider.name}";
                 return AvoidRight;
@@ -81,7 +81,7 @@ public class CollisionAvoidance : MonoBehaviour
         }
         foreach (var rightProbe in _rightProbes)
         {
-            if (Physics.Raycast(rightProbe.position, rightProbe.forward, out var hit, _detectionRange, _layerMask))
+            if (Physics.Raycast(rightProbe.position, rightProbe.forward, out var hit, _detectionRange))
             {
                 _horizontalCollision = $"{rightProbe.name} detected {hit.collider.name}";
                 return AvoidLeft;
