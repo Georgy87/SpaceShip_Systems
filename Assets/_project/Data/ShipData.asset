@@ -12,8 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bb7b9de43d8b10a4eb1ac4d2eb1aa567, type: 3}
   m_Name: ShipData
   m_EditorClassIdentifier: 
-  _thrustForce: 7000
-  _pitchForce: 1400
+  _thrustForce: 9567
+  _pitchForce: 1000
   _rollForce: 1000
   _yawForce: 1200
   _shieldStrength: 5000
